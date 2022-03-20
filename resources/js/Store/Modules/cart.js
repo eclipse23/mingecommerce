@@ -25,9 +25,12 @@ export default {
         },
         async removeCart({commit}, payload = {}) {
             commit('setCart', this.state.cart.cart - 1)
+<<<<<<< HEAD
         },
         async checkOut({commit}, payload = {}) {
             commit('setCart', 0)
+=======
+>>>>>>> 8575311f873dcc06be500242997626364b16b31f
         }
     }
 }

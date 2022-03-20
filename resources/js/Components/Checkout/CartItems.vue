@@ -215,7 +215,10 @@
                   confirmButtonColor: "#ea580c"
               })
           }.bind(this));
+<<<<<<< HEAD
           await this.$store.dispatch('cart/checkOut')
+=======
+>>>>>>> 8575311f873dcc06be500242997626364b16b31f
       },
       async checkOut() {
         this.isLoading = true
@@ -228,7 +231,10 @@
               confirmButtonColor: "#ea580c"
           })
         })
+<<<<<<< HEAD
         await this.$store.dispatch('cart/checkOut')
+=======
+>>>>>>> 8575311f873dcc06be500242997626364b16b31f
       },
       async setupIntent () {
          this.isLoading = true

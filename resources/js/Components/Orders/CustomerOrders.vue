@@ -101,7 +101,11 @@
             if(order.method == 'e-payment' || order.status == 'cancelled') {
                 return false
             } else {
+<<<<<<< HEAD
                 if(order.status != 'Sold') {
+=======
+                if(order.status != 'sold') {
+>>>>>>> 8575311f873dcc06be500242997626364b16b31f
                     return true
                 } else {
                     return false
@@ -133,7 +137,10 @@
             .then(response => {
                 this.orders = response.data.data
                 this.isLoading = false
+<<<<<<< HEAD
                 this.getOrders()
+=======
+>>>>>>> 8575311f873dcc06be500242997626364b16b31f
             })
         },
         status(status) {

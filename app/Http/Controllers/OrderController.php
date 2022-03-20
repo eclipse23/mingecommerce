@@ -96,7 +96,11 @@ class OrderController extends Controller
             broadcast(new UserNotification($user))->toOthers();
         }
 
+<<<<<<< HEAD
         $carts = Cart::where('status', '!=', 'unprocess')->orderBy('id', 'desc')->get();
+=======
+        $carts = Cart::where('status', '!=', 'unprocess')->get();
+>>>>>>> 8575311f873dcc06be500242997626364b16b31f
 
         return new CartCollection($carts);
     }

@@ -51,7 +51,11 @@
                     <div class="absolute inset-0">
                         <img src="https://cdn.stocksnap.io/img-thumbs/960w/computer-board_FVH1SDZJGI.jpg" alt="" class="w-full h-full object-center object-cover">
                     </div>
+<<<<<<< HEAD
                     <div class="relative bg-gray-900 bg-opacity-75 py-5 px-6 sm:py-10 sm:px-12 lg:px-16">
+=======
+                    <div class="relative bg-gray-900 bg-opacity-75 py-32 px-6 sm:py-40 sm:px-12 lg:px-16">
+>>>>>>> 8575311f873dcc06be500242997626364b16b31f
                         <div class="relative max-w-3xl mx-auto flex flex-col items-center text-center">
                         <h2 id="social-impact-heading" class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
                             <span class="block sm:inline">Ming Computer Solutions - Panabo Branch</span>
